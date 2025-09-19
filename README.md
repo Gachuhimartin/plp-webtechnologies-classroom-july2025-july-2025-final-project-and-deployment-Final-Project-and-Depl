@@ -1,4 +1,4 @@
-# 🥐 Sweet Treats Bakery Website
+# 🥐 SweetBites Bakery Website
 
 This project is a **multi-page website** for a fictional bakery called **SweetBites**.
 It was built as part of a web development assignment to demonstrate planning, semantic HTML structure, responsive CSS design, and JavaScript interactivity.
@@ -44,8 +44,7 @@ bakery-website/
 
 ## 🚀 Live Demo
 
-🔗 [View Deployed Site](https://yourusername.github.io/bakery-website)
-*(replace with your actual GitHub Pages / Netlify / Vercel link)*
+🔗 [View Deployed Site] https://gachuhimartin.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
 
 ---
 
