@@ -1,90 +1,79 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🥐 Sweet Treats Bakery Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+This project is a **multi-page website** for a fictional bakery called **SweetBites**.
+It was built as part of a web development assignment to demonstrate planning, semantic HTML structure, responsive CSS design, and JavaScript interactivity.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 📌 Features
 
-Using your plan, begin building:
+* 🏠 **Pages**: Home, About, Products, Contact
+* 📱 **Responsive design** for desktop, tablet, and mobile
+* 🎨 **Consistent layout** (shared header, footer, and navigation)
+* 🎛️ **JavaScript interactivity**:
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+  * Mobile navigation toggle (hamburger menu)
+  * Active link highlighting
+  * Scroll-to-top button
+  * Contact form validation
+  * Dynamic footer year
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 📂 Project Structure
 
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+```
+bakery-website/
+│
+├── index.html          Home page
+├── about.html          About page
+├── products.html       Products page
+├── contact.html        Contact page
+│
+├── css/
+│   └── style.css      Main stylesheet
+│
+├── js/
+│   └── main.js        Main JavaScript file
+│
+├── images/            Images and bakery graphics
+└── README.md          Project documentation
+```
 
 ---
 
-## Deliverables
+## 🚀 Live Demo
 
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+🔗 [View Deployed Site](https://yourusername.github.io/bakery-website)
+*(replace with your actual GitHub Pages / Netlify / Vercel link)*
 
 ---
 
-## Outcome
+## 🛠️ Installation & Usage
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+1. Clone this repo:
+
+   ```bash
+   git clone https://github.com/yourusername/bakery-website.git
+   ```
+2. Open the folder and run locally:
+
+   * Open `index.html` in your browser
+   * Or use a local server (e.g., VS Code Live Server)
+
+---
+
+
+## 🧩 Technologies Used
+
+* **HTML5** → semantic markup for structure
+* **CSS3** → styling, Flexbox, Grid, responsive layout
+* **JavaScript (ES6+)** → interactivity and dynamic features
+
+---
+
+## 👩‍🍳 Author
+
+* **Name:** Martin Gachuhi
+* **GitHub:** https://github.com/Gachuhimartin
+

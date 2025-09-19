@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SweetBites Bakery - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <h1 class="logo">SweetBites</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Contact Us</h2>
+    <form id="contact-form" novalidate>
+      <label>Name<input type="text" name="name" required></label>
+      <label>Email<input type="email" name="email" required></label>
+      <label>Message<textarea name="message" required></textarea></label>
+      <button type="submit">Send</button>
+      <div id="form-feedback"></div>
+    </form>
+  </main>
+
+  <footer>
+    <p>© <span id="year-4"></span> SweetBites Bakery</p>
+  </footer>
+</body>
+</html>
